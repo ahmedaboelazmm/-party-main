@@ -1,0 +1,162 @@
+#Home{
+    background-image:url(../img/home.png) ;
+    background-size: cover;
+    background-position: center;
+      
+}
+#Home .over-lay{
+    background-color: rgba(214, 46, 51, 0.6);
+}
+#slide-down{
+    margin: 100px auto;
+    width: 50%;
+}
+#slide-down h3{
+    padding: 10px;
+    background-color: rgba(214, 46, 51, 0.6);
+    color:white;
+    cursor: pointer;
+    margin: 0;
+}
+#slide-down .slider{
+    padding: 10px;
+    background-color: #ccc;
+}
+
+#count {
+    background-image: linear-gradient(
+        rgba(214, 46, 51, 0.6),
+        rgba(214, 46, 51, 0.6)
+      ),
+      url(../img/event.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-block: 100px;
+    .box {
+      border: 1px solid white;
+      padding: 50px;
+      font-size: 30px;
+    }
+  }
+
+#contact{
+    margin-top: 100px;
+}
+#contact .container{
+    padding: 100px;
+}
+#contact .head h2{
+    font-size: 35px;
+    color: #444;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#contact .head p{
+    text-align: center;
+    color: #777;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.contact-info h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: #444;
+}
+.contact-info p{
+    font-size: 16px;
+   line-height: 25px;
+    color: #777;
+}
+.contact-icon{
+    margin-top: 50px;
+}
+.contact-icon p{
+    margin-bottom: 35px;
+    color: #777;
+    font-size: 16px;
+    line-height: 25px;
+}
+.contact-icon i{
+    margin-right: 20px;
+    color: #777;
+}
+.contact-icon .red{
+    color: red;
+    font-size: 16px;
+    line-height: 25px;
+}
+.contact-social{
+    margin-top: 60px;
+    color: #777;
+}
+.contact-social i{
+    margin-right: 10px;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+    transition: .5s all;
+}
+.contact-social i:hover{
+    color: white;
+    background-color: red;
+    border: none;
+}
+#contact form input{
+    margin-bottom: 20px;
+
+}
+#contact form textarea{
+    height: 200px;
+    margin-bottom: 10px;
+}
+#contact form p span{
+    color: red;
+    font-size: 20px;
+}
+
+
+#left-menu{
+position: fixed;
+top: 0px;
+left: 0;
+
+}
+.side-icon{
+    color: white;
+    cursor: pointer;
+
+}
+.sidebar{
+    background-color: black;
+    height: 100vh;
+}
+
+#left-menu a{
+    padding: 20px 8px 20px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    color: white;
+}
+ .clouse{
+    position: absolute;
+    top: -20px ;
+    left: 40px;
+    margin-left: 50px;
+    font-size: 30px;
+   
+} 
+.sidebar a:hover{
+    transition: 0.5s all;
+}
+ .sidebar a:hover{
+    color: rgb(100, 32, 32) !important;
+ }
+
